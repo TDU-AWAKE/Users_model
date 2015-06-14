@@ -34,6 +34,6 @@ SampleApp::Application.configure do
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
 
-  #bcrypt'ã®ã‚³ã‚¹ãƒˆé–¢æ•°ã‚’ä¸‹ã’ã‚‹ã“ã¨ã§ãƒ†ã‚¹ãƒˆã®é€Ÿåº¦ã‚’å‘ä¸Šã•ã›ã‚‹ã€‚
-  ActiveModel::SecurePassword.min_cost = true
+  #bcrypt'‚ÌƒRƒXƒgŠÖ”‚ğ‰º‚°‚é‚±‚Æ‚ÅƒeƒXƒg‚Ì‘¬“x‚ğŒüã‚³‚¹‚éB
+ActiveModel::SecurePassword.min_cost = true
 end
